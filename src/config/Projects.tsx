@@ -52,7 +52,7 @@ export const projects: Project[] = [
     description:
       'A smart browser extension that analyzes Amazon product reviews in real time to generate trustworthy pros and cons using AI, caching, and intelligent scraping.',
     image: '/project/TrustLens.png',
-    video: '',
+    video: 'https://ik.imagekit.io/ucspyjde1/TrustLensDemoTwo.mp4',
     link: '',
     technologies: [
       { name: 'React.js', icon: <ReactIcon key="react" /> },

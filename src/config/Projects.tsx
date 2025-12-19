@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: 'SynqFlow',
     description:
       'A Zapier-inspired automation platform that connects triggers to actions using an event-driven Kafka-based architecture',
-    image: '/project/synqflow.png',
+    image: '/project/synqFlow.png',
     video: 'https://ik.imagekit.io/ucspyjde1/SynqFlowDemo.mp4',
     link: '',
     technologies: [

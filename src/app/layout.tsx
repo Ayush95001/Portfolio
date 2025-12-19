@@ -31,11 +31,10 @@ export default function RootLayout({
             <ReactLenis root>
               <Navbar />
               {children}
-              <OnekoCat />
+              
               <Quote />
-              <Footer />
-              <ChatBubble />
-              <UmamiAnalytics />
+             
+            
             </ReactLenis>
           </ThemeProvider>
         </body>

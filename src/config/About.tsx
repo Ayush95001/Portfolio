@@ -1,4 +1,6 @@
+import AWS from '@/components/technologies/AWS';
 import Bun from '@/components/technologies/Bun';
+import ExpressJs from '@/components/technologies/ExpressJs';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
@@ -10,7 +12,7 @@ import TypeScript from '@/components/technologies/TypeScript';
 
 export const mySkills = [
   <ReactIcon key="react" />,
-  <Bun key="bun" />,
+  <ExpressJs key="express"/>,
   <JavaScript key="javascript" />,
   <TypeScript key="typescript" />,
   <MongoDB key="mongodb" />,
@@ -18,9 +20,10 @@ export const mySkills = [
   <NodeJs key="nodejs" />,
   <PostgreSQL key="postgresql" />,
   <Prisma key="prisma" />,
+  <AWS key="AWS"/>
 ];
 
 export const about = {
-  name: 'Ramkrishna Swarnkar',
-  description: `I'm a Full Stack web developer and Open Source Contributor, I love building products to solve real-world problems. I'm specialized in building MVP's.`,
+  name: 'Ayush Mishra',
+  description: `I’m a Full Stack Developer who builds scalable, production-ready software and MVPs that solve real business problems. I focus on clean architecture, performance, and code built to last. From frontend to backend to deployment, I own the complete development lifecycle and turn complex ideas into reliable products.`,
 };

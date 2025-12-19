@@ -1,0 +1,91 @@
+---
+title: 'TrustLens'
+description: 'AI-powered browser extension that extracts trustworthy pros and cons from real customer reviews to help users make confident purchase decisions.'
+image: '/project/trustlens.png'
+technologies:
+  [
+    'React.js',
+    'Tailwind CSS',
+    'Framer Motion',
+    'Express.js',
+    'Redis',
+  ]
+github: ''
+live: ''
+timeline: 'Ongoing'
+role: 'Full Stack'
+team: 'Solo'
+status: 'Live'
+featured: true
+challenges:
+  [
+    'Scraping reviews under platform constraints',
+    'Handling Amazon login and soft blocks',
+    'Avoiding aggressive request patterns',
+    'Managing async scraping with UI state',
+    'Caching derived AI summaries efficiently',
+    'Working within AI rate limits',
+  ]
+learnings:
+  [
+    'Browser extension architecture',
+    'Responsible scraping techniques',
+    'Redis caching strategies',
+    'Async coordination between frontend and backend',
+    'Designing AI-powered features for real users',
+    'Building resilient systems under external constraints',
+  ]
+isPublished: true
+---
+
+# TrustLens: AI-Powered Review Intelligence
+
+## Overview
+
+TrustLens is a browser extension that analyzes real customer reviews on e-commerce product pages and generates clear, structured pros and cons in seconds.
+
+Instead of scrolling through hundreds of reviews or relying on vague AI summaries, TrustLens helps users understand what actually works, what doesn’t, and whether a product is worth buying. The focus is on decision clarity, not marketing persuasion.
+
+## What Users Can Do
+
+- **Analyze Reviews Instantly:** Generate structured pros and cons directly on product pages.
+- **One-Click Insights:** Run analysis with a single click using cached reviews.
+- **Automatic Context Detection:** Detects product switches and refreshes insights automatically.
+- **Noise-Free Summaries:** Avoid generic or marketing-safe review summaries.
+- **Non-Intrusive Experience:** Works seamlessly without breaking page layout or UX.
+
+## Why i built this
+
+I built TrustLens to solve a personal frustration with online shopping decisions.
+
+- Reviews are noisy, repetitive, and time-consuming.
+- Important negative signals are buried deep.
+- Existing AI summaries are generic and unhelpful.
+- Most tools optimize for conversion, not user confidence.
+
+TrustLens was designed to surface clear trade-offs so users can decide faster and with more confidence.
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Framer Motion
+- Express.js
+- Redis
+
+## After launch & Impact
+
+- Built a fully functional AI-powered browser extension.
+- Learned how to work within real-world platform constraints.
+- Designed a read-heavy system optimized with Redis caching.
+- Reduced unnecessary AI calls using derived-data caching.
+- Improved understanding of UX-driven AI features.
+- Shipped a lightweight, production-ready extension.
+
+## Future Plans
+
+- Add intent-based summaries for different buyer profiles.
+- Introduce aspect-level scoring (battery, comfort, build quality).
+- Implement incremental re-analysis when new reviews appear.
+- Extend support to multiple e-commerce platforms.
+- Improve caching strategy with dynamic Redis TTLs.

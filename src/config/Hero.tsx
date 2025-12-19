@@ -28,6 +28,7 @@ import LinkedIn from '@/components/svgs/LinkedIn';
 import Mail from '@/components/svgs/Mail';
 import X from '@/components/svgs/X';
 import Bun from '@/components/technologies/Bun';
+import ExpressJs from '@/components/technologies/ExpressJs';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';
 import NextJs from '@/components/technologies/NextJs';
@@ -43,7 +44,7 @@ export const skillComponents = {
   TypeScript: TypeScript,
   ReactIcon: ReactIcon,
   NextJs: NextJs,
-  Bun: Bun,
+  ExpressJs: ExpressJs,
   PostgreSQL: PostgreSQL,
   NodeJs: NodeJs,
   MongoDB: MongoDB,
@@ -53,7 +54,7 @@ export const skillComponents = {
 
 export const heroConfig = {
   // Personal Information
-  name: 'Ram',
+  name: 'Ayush',
   title: 'A Full Stack web developer.',
   avatar: '/assets/logo.png',
 
@@ -75,9 +76,14 @@ export const heroConfig = {
       component: 'NextJs',
     },
     {
-      name: 'Bun',
-      href: 'https://bun.sh/',
-      component: 'Bun',
+      name: 'ExpressJs',
+      href: 'https://expressjs.com/',
+      component: 'ExpressJs',
+    },
+    {
+      name: 'Prisma',
+      href: 'https://expressjs.com/',
+      component: 'Prisma',
     },
     {
       name: 'PostgreSQL',
@@ -89,7 +95,9 @@ export const heroConfig = {
   // Description Configuration
   description: {
     template:
-      'I build interactive web apps using {skills:0}, {skills:1}, {skills:2}, {skills:3} and {skills:4}. With a focus on <b>UI</b> design. Enthusiastic about <b>Three.js</b>, driven by a keen eye for design.',
+
+      'I help startups and teams build scalable, production-ready web applications using {skills:0}, {skills:1}, {skills:2}, {skills:3},{skills:4} and {skills:5}. I deliver clean, reliable MVPs with end-to-end ownership, turning ideas into products built to grow.',
+
   },
 
   // Buttons Configuration
@@ -112,23 +120,18 @@ export const heroConfig = {
 // Social Links Configuration
 export const socialLinks = [
   {
-    name: 'X',
-    href: 'https://x.com/ramxcodes',
-    icon: <X />,
-  },
-  {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/ramxcodes/',
+    href: 'https://www.linkedin.com/in/ayush-mishra-545845216/',
     icon: <LinkedIn />,
   },
   {
     name: 'Github',
-    href: 'https://github.com/ramxcodes',
+    href: 'https://github.com/Ayush95001',
     icon: <Github />,
   },
   {
     name: 'Email',
-    href: 'mailto:ramxcodes@gmail.com',
+    href: 'mailto:ayushmishra119821@gmail.com',
     icon: <Mail />,
   },
 ];

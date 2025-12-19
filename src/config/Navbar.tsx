@@ -11,17 +11,23 @@ export const navbarConfig = {
     height: 100,
   },
   navItems: [
-    {
-      label: 'Work',
-      href: '/work-experience',
-    },
-    {
-      label: 'Blogs',
-      href: '/blog',
-    },
+    // {
+    //   label: 'Work',
+    //   href: '/work-experience',
+    // },
+    // {
+    //   label: 'Blogs',
+    //   href: '/blog',
+    // },
+
     {
       label: 'Projects',
       href: '/projects',
     },
+    {
+      label: 'Contact Me',
+      href: '/contact'
+
+    }
   ] as NavItem[],
 };

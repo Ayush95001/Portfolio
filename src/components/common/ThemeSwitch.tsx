@@ -21,7 +21,7 @@ export const useThemeToggle = ({
 } = {}) => {
   const { theme, setTheme, resolvedTheme } = useTheme();
 
-  const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     setIsDark(resolvedTheme === 'dark');

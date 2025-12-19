@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description:
       'A Zapier-inspired automation platform that connects triggers to actions using an event-driven Kafka-based architecture',
     image: '/project/synqflow.png',
-    video: '',
+    video: 'https://ik.imagekit.io/ucspyjde1/SynqFlowDemo.mp4',
     link: '',
     technologies: [
       { name: 'Kafka', icon: <KafkaIcon key="kafka" /> },

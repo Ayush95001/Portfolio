@@ -1,5 +1,4 @@
 import AWS from '@/components/technologies/AWS';
-import Bun from '@/components/technologies/Bun';
 import ExpressJs from '@/components/technologies/ExpressJs';
 import JavaScript from '@/components/technologies/JavaScript';
 import MongoDB from '@/components/technologies/MongoDB';

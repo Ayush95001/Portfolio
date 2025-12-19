@@ -24,7 +24,7 @@ export const useThemeToggle = ({
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
-    setIsDark(resolvedTheme === 'dark');
+    setIsDark(resolvedTheme === 'light');
   }, [resolvedTheme]);
 
   const styleId = 'theme-transition-styles';
